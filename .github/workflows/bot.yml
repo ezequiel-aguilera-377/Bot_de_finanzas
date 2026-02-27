@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install requests
+          pip install -r requirements.txt
 
       - name: Ejecutar bot
         run: python Bot_de_finanzas.py
